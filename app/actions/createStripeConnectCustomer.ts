@@ -8,6 +8,7 @@ import { stripe } from "@/lib/stripe";
 if (!process.env.STRIPE_SECRET_KEY) {
   throw new Error("STRIPE_SECRET_KEY is not set");
 }
+// a
 
 if (!process.env.NEXT_PUBLIC_CONVEX_URL) {
   throw new Error("NEXT_PUBLIC_CONVEX_URL is not set");
