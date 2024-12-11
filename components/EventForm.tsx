@@ -285,7 +285,7 @@ export default function EventForm({ mode, initialData }: EventFormProps) {
                       type="number"
                       {...field}
                       onChange={(e) => field.onChange(Number(e.target.value))}
-                      className="pl-6"
+                      className="pl-12"
                     />
                   </div>
                 </FormControl>
