@@ -9,7 +9,8 @@ const nextConfig: NextConfig = {
       { hostname: "upbeat-stoat-959.convex.cloud", protocol: "https" },
       { hostname: "wary-anaconda-29.convex.cloud", protocol: "https" },
       { hostname: "brave-coyote-725.convex.cloud", protocol: "https" }, // Agrega esta línea
-      { hostname: "industrious-deer-919.convex.cloud", protocol: "https"}
+      { hostname: "industrious-deer-919.convex.cloud", protocol: "https"},
+      { hostname: "*.convex.cloud", protocol: "https" },
     ],
   },
 };
